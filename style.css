@@ -51,14 +51,9 @@ footer {
     float: right;
 }
 
-.button a {
-    color: white;
-    background-color: blue;
-    display: inline;
-    padding: 5px 10px;
-}
-
         /* fine elementi float */
+
+        /* proprietà elementi lista */
 
 nav ul li {
     list-style: none;
@@ -75,11 +70,19 @@ nav ul li a {
 a {
     text-decoration: none;
     font-size: 14px;
-
 }
+
+        /* proprietà (logo e right-button) */
 
 #logo img {
     vertical-align: middle;
+}
+
+.button a {
+    color: white;
+    background-color: blue;
+    display: inline;
+    padding: 5px 10px;
 }
 
 .clearfix {
