@@ -10,7 +10,8 @@
 
 .container {
     width: 80%;
-    margin: auto;
+    margin: 0 auto;
+    height: 100%;
 }
 
 .altezza .container {
@@ -41,21 +42,19 @@ footer {
 
         /* elementi float */
 
-#logo {
-    float: left;
-}
-
 .leftside {
     float: left;
-    margin-right: 550px;
 }
 
 .rightside {
-    float: left;
+    float: right;
 }
 
-.button {
-    float: right;
+.button a {
+    color: white;
+    background-color: blue;
+    border-radius: 40px;
+    display: inline;
 }
 
         /* fine elementi float */
@@ -63,7 +62,7 @@ footer {
 nav ul li {
     list-style: none;
     display: inline-block;
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
 a {
