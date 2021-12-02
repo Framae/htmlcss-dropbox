@@ -8,8 +8,18 @@
     height: 500px;
 }
 
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.altezza .container {
+    border: 1px solid #000;
+}
+
 header {
     background-color: white;
+    height: 100px;
 }
 
 #jumbotron {
