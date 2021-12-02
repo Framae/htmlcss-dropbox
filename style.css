@@ -3,3 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.altezza {
+    height: 500px;
+}
+
+header {
+    background-color: white;
+}
+
+#jumbotron {
+    background-color: turquoise;
+}
+
+main {
+    background-color: transparent;
+}
+
+footer {
+    background-color: black;
+}
