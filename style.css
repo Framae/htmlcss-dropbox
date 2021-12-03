@@ -94,7 +94,41 @@ header::after {
     clear: both;
 }
 
+.clearfix {
+    display: table;
+    content: "";
+    clear: both;
+}
+
             /* JUMBOTRON */
 h1 {
     font-size: 70px;
+}
+
+.row {
+    width: 100%;
+    height: 45%;
+}
+
+.first-row {
+    margin-bottom: 5%;
+}
+
+.piani {
+    width: 30%;
+    height: 90%;
+    background-color: green;
+}
+
+.col-left {
+    float: left;
+}
+
+.center {
+    float: left;
+    margin: 0 5%;
+}
+
+.col-right {
+    float: left;
 }
