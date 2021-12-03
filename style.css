@@ -108,13 +108,14 @@ h1 {
 .row {
     width: 100%;
     height: 45%;
+    margin: 25px 0;
 }
 
-.first-row {
-    margin-bottom: 5%;
+.margine {
+    margin-top: 50px;
 }
 
-.piani {
+.piano {
     width: 30%;
     height: 90%;
     background-color: green;
@@ -131,4 +132,10 @@ h1 {
 
 .col-right {
     float: left;
+}
+
+.intero {
+    width: 100%;
+    height: 45%;
+    background-color: green;
 }
