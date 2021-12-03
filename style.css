@@ -142,6 +142,11 @@ h1 {
 
 .row-footer {
     margin-left: 100px;
+}
+
+.row-footer::after {
+    display: table;
+    content: "";
     clear: both;
 }
 
@@ -172,8 +177,21 @@ h1 {
 }
 
 #row-riga {
-    float: left;
     width: 100px;
     height: 100px;
-    border: 1px solid white;
+    border-bottom: 1px solid white;
+    margin-left: 100px;
+}
+
+#row-riga::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+#logo-footer {
+    margin-top: 50px;
+    margin-left: 100px;
+    color: rgb(105, 101, 101);
+    font-size: 14px;
 }
