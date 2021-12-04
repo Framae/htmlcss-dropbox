@@ -197,9 +197,15 @@ h1 {
 .col-center {
     width: calc(100% - 60vw);
     height: 30vw;
-    background-color: chartreuse;
+    background-color: lightgray;
     float: left;
     margin: 0;
+    overflow-y: scroll;
+}
+
+.col-content {
+    width: 80%;
+    margin: auto;
 }
 
 .Q-item {
