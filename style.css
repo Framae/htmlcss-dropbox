@@ -211,13 +211,29 @@ h1 {
 .Q-item {
     width: 15vw;
     height: 15vw;
-    background-color: red;
     float: left;
     border: 5px solid blue;
 }
 
+.Q-item.uno {
+    background-color: lightgreen;
+}
 
+.Q-item.due {
+    background-color: purple;
+}
 
+.Q-item.tre
+
+.Q-item.quattro
+
+.Q-item.cinque
+
+.Q-item.sei
+
+.Q-item.sette
+
+.Q-item.otto
 
             /* FINE Q SECTION */
 
