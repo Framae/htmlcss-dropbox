@@ -182,6 +182,38 @@ h1 {
     height: 45%;
     background-color: green;
 }
+            /* INIZIO Q SECTION */
+
+.h-Q-section {
+    height: 500px;
+}
+
+.col-side {
+    width: 30vw;
+    height: 30vw;
+    float: left;
+}
+
+.col-center {
+    width: calc(100% - 60vw);
+    height: 30vw;
+    background-color: chartreuse;
+    float: left;
+    margin: 0;
+}
+
+.Q-item {
+    width: 15vw;
+    height: 15vw;
+    background-color: red;
+    float: left;
+    border: 5px solid blue;
+}
+
+
+
+
+            /* FINE Q SECTION */
 
            /* INIZIO BLUE SECTION */
 
@@ -200,19 +232,20 @@ h1 {
             
 .blue-text {
     float: left;
-    width: 35%;
-    margin-right: 30%;
+    width: 40%;
+    margin-right: 25%;
 }
             
 .b-purple-text {
     color: purple;
-    font-size: 34px;
+    font-size: 38px;
     font-weight: 800;
 }
             
 .b-white-button {
     width: 35%;
     float: left;
+    margin-top: 20px;
 }
 
 .b-w-btn {
