@@ -182,7 +182,57 @@ h1 {
     height: 45%;
     background-color: green;
 }
+
+           /* INIZIO BLUE SECTION */
+
+.h-blue-section {
+    width: 100%;
+    height: 400px;
+    background-color: lightskyblue;
+}
+
+.b-container {
+    width: 80%;
+    margin: auto;
+    height: 350px;
+    padding: 150px 0;
+}
+            
+.blue-text {
+    float: left;
+    width: 35%;
+    margin-right: 30%;
+}
+            
+.b-purple-text {
+    color: purple;
+    font-size: 34px;
+    font-weight: 800;
+}
+            
+.b-white-button {
+    width: 35%;
+    float: left;
+}
+
+.b-w-btn {
+    color: rgb(71, 68, 68);
+    font-weight: bold;
+    background-color: white;
+    padding: 8px 50px;
+}
+
+.b-container::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+        
+             /* FINE BLUE SECTION */
+        
+
             /* INIZIO LAST SECTION */
+
 .h-last-section {
     height: 500px;
     margin-top: 150px;
@@ -196,11 +246,7 @@ h1 {
     font-weight: 800;
 }
 
-            /* INIZIO BLUE SECTION */
-
-
-            /* FINE BLUE SECTION */
-
+ 
             /* FINE LAST SECTION */
 
 
