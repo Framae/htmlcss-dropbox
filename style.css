@@ -212,28 +212,40 @@ h1 {
     width: 15vw;
     height: 15vw;
     float: left;
-    border: 5px solid blue;
 }
 
 .Q-item.uno {
     background-color: lightgreen;
+    border: 10px solid rgb(112, 194, 112) ;
 }
 
 .Q-item.due {
-    background-color: purple;
+    background-color: rgb(212, 16, 137);
 }
 
-.Q-item.tre
+.Q-item.tre {
+    background-color: royalblue;
+}
 
-.Q-item.quattro
+.Q-item.quattro {
+    background-color: rgba(255, 0, 0, 0.856);
+}
 
-.Q-item.cinque
+.Q-item.cinque {
+    background-color: red;
+}
 
-.Q-item.sei
+.Q-item.sei {
+    background-color: rgb(154, 174, 236);
+}
 
-.Q-item.sette
+.Q-item.sette {
+    background-color: rgb(13, 13, 102);
+}
 
-.Q-item.otto
+.Q-item.otto {
+    background-color: rgba(248, 224, 7, 0.932);
+}
 
             /* FINE Q SECTION */
 
