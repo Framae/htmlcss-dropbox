@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .altezza {
@@ -21,8 +21,8 @@
         /* colore sfondi */
 header {
     background-color: white;
-    height: 50px;
-    line-height: 50px;
+    height: 100px;
+    line-height: 100px;
     position: fixed;
     top: 0;
     left: 0;
@@ -30,7 +30,7 @@ header {
 }
 
 #jumbotron {
-    background-color: turquoise;
+    background-color: rgb(142, 223, 215);
     padding-top: 140px;
 }
 
@@ -42,7 +42,7 @@ footer {
     background-color: black;
 }
 
-        /* elementi float */
+        /* elementi float navbar */
 
 .leftside {
     float: left;
@@ -52,9 +52,9 @@ footer {
     float: right;
 }
 
-        /* fine elementi float */
+        /* fine elementi float navbar */
 
-        /* proprietà elementi lista */
+        /* proprietà elementi lista nav */
 
 nav ul li {
     list-style: none;
@@ -86,7 +86,7 @@ a {
     padding: 5px 10px;
 }
 
-        /* clearfix */
+        /* clearfix di header */
 
 header::after {
     display: table;
@@ -101,18 +101,61 @@ header::after {
 }
 
             /* JUMBOTRON */
+
+.h-jumbo {
+    height: 700px;
+}
+
+.jumbo-row {
+    margin-top: 50px;
+}
+
+.jumbo-row::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+            
 h1 {
     font-size: 70px;
 }
 
-.row {
+.jumbo-text {
+    width: 30%;
+    float: left;
+    margin-right: 150px;
+}
+
+.j-text {
+    font-weight: 400;
+}
+
+.jumbo-img {
+    width: 33%;
+    float: left;
+}
+
+.j-image {
+    width: 700px;
+}
+
+.button.j-button {
+    margin-top: 30px;
+}
+
+.j-subtext {
+    margin-top: 10px;
+}
+
+            /* SEZIONE 1 DEL MAIN */
+.row-section1 {
     width: 100%;
     height: 45%;
     margin: 25px 0;
 }
 
 .margine {
-    margin-top: 50px;
+    margin-top: 150px;
 }
 
 .piano {
@@ -139,7 +182,21 @@ h1 {
     height: 45%;
     background-color: green;
 }
+            /* INIZIO LAST SECTION */
+.h-last-section {
+    height: 500px;
+    margin-top: 150px;
+}
 
+.hr-gray {
+    margin: 40px 0;
+}
+
+
+            /* FINE LAST SECTION */
+
+
+            /* INIZIO FOOTER */
 .row-footer {
     margin-left: 100px;
 }
@@ -195,3 +252,4 @@ h1 {
     color: rgb(105, 101, 101);
     font-size: 14px;
 }
+            /* FINE FOOTER */
