@@ -146,42 +146,117 @@ h1 {
 .j-subtext {
     margin-top: 10px;
 }
+            /* FINE JUMBOTRON */
 
-            /* SEZIONE 1 DEL MAIN */
+            /* SEZIONE PIANI */
+
+.p-section {
+margin-top: 200px;
+}
+
+.p-container {
+    width: 65%;
+    margin: auto;
+    height: 1000px;
+}
+
+.bigger {
+    font-size: 38px;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.fatturazione {
+    margin-bottom: 50px;
+}
+
+.blue-circle {
+    width: 20px;
+    height: 20px;
+    border: 5px solid blue;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.empty-circle {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.billing {
+    color: gray;
+    font-weight: bold;
+}
+
 .row-section1 {
     width: 100%;
     height: 45%;
     margin: 25px 0;
 }
 
-.margine {
-    margin-top: 150px;
-}
-
 .piano {
     width: 30%;
     height: 90%;
-    background-color: green;
 }
 
 .col-left {
     float: left;
+    border: 1px solid gray;
+}
+
+.heading {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid black;
+}
+
+.sp-head {
+    text-align: center;
+    vertical-align: middle;
+    color: gray;
+    font-weight: 400;
+}
+
+.reduction {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.option {
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.price {
+    margin-bottom: 10px;
 }
 
 .center {
     float: left;
     margin: 0 5%;
+    border: 1px solid gray;
 }
 
 .col-right {
     float: left;
+    border: 1px solid gray;
 }
 
 .intero {
     width: 100%;
-    height: 45%;
-    background-color: green;
+    height: 25%;
+    border: 1px solid gray;
 }
+            /* FINE SEZIONE PIANI */
+
             /* INIZIO Q SECTION */
 
 .h-Q-section {
