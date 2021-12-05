@@ -200,9 +200,14 @@ margin-top: 200px;
     margin: 25px 0;
 }
 
+.row-section1::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
 .piano {
     width: 30%;
-    height: 90%;
 }
 
 .col-left {
