@@ -321,6 +321,57 @@ margin-top: 200px;
 
             /* FINE SEZIONE PIANI */
 
+
+            /* INIZIO SEZIONE DROPBOX PARTNERSHIP */
+
+.hp-dropbox {
+    height: 500px;
+}
+
+.PD-container {
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.partnership {
+    width: 50%;
+    float: left;
+}
+
+.partner {
+    width: 600px;
+    height: 500px;
+}
+
+#inside-partnership {
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.bolder {
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+#lorem {
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(88, 84, 84);
+    margin-bottom: 30px;
+}
+
+.find-btn {
+    border: 1px solid rgb(116, 112, 112);
+    padding: 8px 16px;
+    color: gray;
+    font-size: 15px;
+    font-weight: 400;
+}
+            /* fine SEZIONE DROPBOX PARTNERSHIP */
+
+
             /* INIZIO Q SECTION */
 
 .h-Q-section {
