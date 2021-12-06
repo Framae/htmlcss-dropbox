@@ -88,7 +88,7 @@ a {
 
 .button a:hover {
     color: white;
-    background-color: rgba(0, 0, 255, 0.8);
+    background-color: rgba(0, 0, 255, 0.7);
     display: inline;
     padding: 5px 10px;
 }
@@ -286,6 +286,13 @@ margin-top: 200px;
     font-size: 14px;
 }
 
+.freetry:hover {
+    color: white;
+    background-color: rgba(0, 0, 255, 0.8);
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
 .buy-now {
     text-decoration: underline;
     color: blue;
@@ -381,11 +388,20 @@ margin-top: 200px;
 }
 
 .find-btn {
+    background-color: white;
     border: 1px solid rgb(116, 112, 112);
     padding: 8px 16px;
     color: gray;
     font-size: 15px;
     font-weight: 400;
+}
+
+.find-btn:hover {
+    border: 1px solid rgb(146, 15, 15);
+    padding: 8px 16px;
+    font-size: 15px;
+    color: gray;
+    background-color: rgba(148, 42, 42, 0.5);
 }
             /* fine SEZIONE DROPBOX PARTNERSHIP */
 
@@ -565,6 +581,15 @@ margin-top: 200px;
     background-color: white;
     padding: 8px 50px;
 }
+
+.b-w-btn:hover {
+    color: rgb(71, 68, 68);
+    font-weight: bold;
+    background-color: rgb(255, 255, 255, 0.7);
+    padding: 8px 50px;
+}
+
+
 
 .b-container::after {
     display: table;
