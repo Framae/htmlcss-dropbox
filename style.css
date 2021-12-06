@@ -509,35 +509,51 @@ margin-top: 200px;
 
 .Q-item.uno {
     background-color: lightgreen;
-    border: 10px solid rgb(112, 194, 112) ;
+    border: 10px solid rgb(112, 194, 112);
+    position: relative;
+}
+
+.centered-img {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .Q-item.due {
     background-color: rgb(212, 16, 137);
+    position: relative;
 }
 
 .Q-item.tre {
     background-color: royalblue;
+    position: relative;
 }
 
 .Q-item.quattro {
     background-color: rgba(255, 0, 0, 0.856);
+    position: relative;
 }
 
 .Q-item.cinque {
     background-color: red;
+    position: relative;
 }
 
 .Q-item.sei {
     background-color: rgb(154, 174, 236);
+    position: relative;
 }
 
 .Q-item.sette {
     background-color: rgb(13, 13, 102);
+    position: relative;
 }
 
 .Q-item.otto {
     background-color: rgba(248, 224, 7, 0.932);
+    position: relative;
 }
 
             /* FINE Q SECTION */
