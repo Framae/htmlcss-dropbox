@@ -513,12 +513,6 @@ margin-top: 200px;
     float: left;
 }
 
-.Q-item.uno {
-    background-color: lightgreen;
-    border: 10px solid rgb(112, 194, 112);
-    position: relative;
-}
-
 .centered-img {
     filter: invert();
     width: 50%;
@@ -526,6 +520,12 @@ margin-top: 200px;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+
+.Q-item.uno {
+    background-color: lightgreen;
+    border: 10px solid rgb(112, 194, 112);
+    position: relative;
 }
 
 .Q-item.due {
