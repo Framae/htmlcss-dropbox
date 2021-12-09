@@ -30,9 +30,10 @@ header {
     z-index: 3;
 }
 
+
 #jumbotron {
-    background-color: rgb(142, 223, 215);
     padding-top: 140px;
+    background-color: #b4d0e7;
 }
 
 main {
