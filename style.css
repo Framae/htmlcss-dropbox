@@ -21,7 +21,6 @@
         /* colore sfondi */
 header {
     background-color: white;
-    height: 100px;
     line-height: 100px;
     position: fixed;
     top: 0;
@@ -59,6 +58,7 @@ footer {
         /* proprietà elementi lista nav */
 
 nav ul li {
+    height: 100px;
     list-style: none;
     display: inline-block;
     padding: 0 20px;
@@ -278,6 +278,10 @@ margin-top: 200px;
 .user {
     margin-bottom: 20px;
     font-size: 14px;
+}
+
+.ls {
+    list-style: none;
 }
 
 .functions {
