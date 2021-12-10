@@ -284,6 +284,10 @@ margin-top: 200px;
     list-style: none;
 }
 
+.ls li.user::before {
+    content: "\2705";
+}
+
 .functions {
     margin-bottom: 40px;
     font-size: 14px;
