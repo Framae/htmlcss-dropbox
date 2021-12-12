@@ -159,6 +159,12 @@ h1 {
 .j-subtext {
     margin-top: 10px;
 }
+
+.fas.fa-arrow-down {
+    font-size: 40px;
+    margin-top: 30px;
+    color: #000;
+}
             /* FINE JUMBOTRON */
 
             /* SEZIONE PIANI */
