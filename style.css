@@ -292,6 +292,22 @@ margin-top: 200px;
 
 .ls li.user::before {
     content: "\2705";
+
+}
+
+li.user {
+    display: flex;
+    align-items: initial;
+}
+
+.reduction .user {
+    display: flex;
+    align-items: baseline;
+}
+
+.reduction .functions {
+    display: flex;
+    align-items: baseline;
 }
 
 .functions {
