@@ -744,6 +744,10 @@ li.user {
     margin-top: 100px;
 }
 
+.col-footer ul li {
+    list-style: none;
+}
+
 .title-footer {
     margin-bottom: 30px;
 }
