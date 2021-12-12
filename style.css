@@ -107,6 +107,59 @@ header::after {
     clear: both;
 }
 
+            /* primo MENU A TENDINA */
+
+#support {
+    position: relative;
+}
+
+#tendina {
+    position: absolute;
+    display: none;
+}
+
+#support:hover #tendina {
+    display: block;
+}
+
+#primodiv {
+    color: white;
+    text-align: center;
+    background-color: lightgray;
+    line-height: 50px;
+    width: 200px;
+    border: 1px solid gray;
+}
+
+#secondodiv {
+    color: white;
+    text-align: center;
+    background-color: lightgray;
+    line-height: 50px;
+    width: 200px;
+    border: 1px solid gray;
+}
+
+#primodiv:hover {
+   background-color: gray;
+}
+
+.pridi {
+    color: white;
+    padding: 16px 80px;
+}
+
+#secondodiv:hover {
+    background-color: gray;
+}
+
+.sedi {
+    color: white;
+    padding: 16px 80px;
+}
+
+
+
 
             /* JUMBOTRON */
 
