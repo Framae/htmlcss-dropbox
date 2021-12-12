@@ -158,6 +158,8 @@ header::after {
     padding: 16px 80px;
 }
 
+            /* fine PRIMO MENU A TENDINA */
+
 
 
 
@@ -719,6 +721,18 @@ li.user {
 
 .ls-title {
     font-weight: 800;
+}
+
+.images .first-image {
+    display: block;
+}
+
+.images .second-image {
+    display: none;
+}
+
+.images:hover .second-image {
+    display: block;
 }
 
  
