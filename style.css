@@ -723,6 +723,8 @@ li.user {
     font-weight: 800;
 }
 
+            /* secondo MENU A TENDINA */
+
 .images .first-image {
     display: block;
 }
@@ -734,7 +736,7 @@ li.user {
 .images:hover .second-image {
     display: block;
 }
-
+            /* fine secondo MENU A TENDINA */
  
             /* FINE LAST SECTION */
 
